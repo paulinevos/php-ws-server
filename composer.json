@@ -1,0 +1,19 @@
+{
+    "name": "vos/php-ws-server",
+    "description": "A simple web socket server that sends incoming messages to all active connections like a chat server",
+    "autoload": {
+        "psr-4": {
+            "Vos\\PhpWsServer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pauline Vos",
+            "email": "pvos88@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "8.1.0 - 8.1.2",
+        "cboden/ratchet": "^0.4.4"
+    }
+}
