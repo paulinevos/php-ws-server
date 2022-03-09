@@ -5,7 +5,7 @@ use Vos\PhpWsServer\MockWsComponent;
 
 require './vendor/autoload.php';
 
-$port = $_SERVER['PHP_WS_SERVER_PORTPHP_WS_SERVER_PORT'] ?? 80;
+$port = $_SERVER['PHP_WS_SERVER_PORT'] ?? 80;
 
 $server = IoServer::factory(
     new MockWsComponent(),
